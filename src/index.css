@@ -254,6 +254,14 @@ ul {
 }
 /* ============= PROJECT CSS =============== */
 
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
 .jobs-center {
   width: 80vw;
   margin: 5rem auto;
