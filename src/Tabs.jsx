@@ -9,7 +9,7 @@ const Tabs = ({ tabs }) => {
     setChosenTab(selectedTab);
   };
   return (
-    <section>
+    <section className='jobs-center'>
       <TabBtns
         tabs={tabs}
         tabsBtnHandler={tabsBtnHandler}
